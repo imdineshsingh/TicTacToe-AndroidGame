@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:gravity="center"
+    tools:context="com.quesan.tictactoedesi.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEVELOPED BY ----> DINESH SINGH"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        />
+
+    <TableRow
+
+        android:gravity="center">
+        <Button
+            android:id="@+id/r1b1"
+            android:layout_width="47pt"
+            android:layout_height="47pt"
+            android:background="@color/squareColor"
+            android:layout_margin="2.5pt"
+            android:text=""
+            android:textSize="55sp"
+            />
+        <Button
+            android:id="@+id/r1b2"
+            android:layout_width="47pt"
+            android:layout_height="47pt"
+            android:background="@color/squareColor"
+            android:layout_margin="2.5pt"
+            android:text=""
+            android:textSize="55sp"
+            />
+        <Button
+            android:id="@+id/r1b3"
+            android:layout_width="47pt"
+            android:layout_height="47pt"
+            android:background="@color/squareColor"
+            android:layout_margin="2.5pt"
+            android:text=""
+            android:textSize="55sp"
+            />
+
+
+    </TableRow>
+
+    <TableRow
+        android:gravity="center">
+        <Button
+            android:id="@+id/r2b1"
+            android:layout_width="47pt"
+            android:layout_height="47pt"
+            android:background="@color/squareColor"
+            android:layout_margin="2.5pt"
+            android:text=""
+            android:textSize="55sp"
+            />
+        <Button
+            android:id="@+id/r2b2"
+            android:layout_width="47pt"
+            android:layout_height="47pt"
+            android:background="@color/squareColor"
+            android:layout_margin="2.5pt"
+            android:text=""
+            android:textSize="55sp"
+            />
+        <Button
+            android:id="@+id/r2b3"
+            android:layout_width="47pt"
+            android:layout_height="47pt"
+            android:background="@color/squareColor"
+            android:layout_margin="2.5pt"
+            android:text=""
+            android:textSize="55sp"
+            />
+
+
+    </TableRow>
+    <TableRow
+        android:gravity="center">
+        <Button
+            android:id="@+id/r3b1"
+            android:layout_width="47pt"
+            android:layout_height="47pt"
+            android:background="@color/squareColor"
+            android:layout_margin="2.5pt"
+            android:text=""
+            android:textSize="55sp"
+            />
+        <Button
+            android:id="@+id/r3b2"
+            android:layout_width="47pt"
+            android:layout_height="47pt"
+            android:background="@color/squareColor"
+            android:layout_margin="2.5pt"
+            android:text=""
+            android:textSize="55sp"
+            />
+        <Button
+            android:id="@+id/r3b3"
+            android:layout_width="47pt"
+            android:layout_height="47pt"
+            android:background="@color/squareColor"
+            android:layout_margin="2.5pt"
+            android:text=""
+            android:textSize="55sp"
+            />
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/btnReplay"
+        android:text="Reset"
+        android:layout_margin="16pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+</TableLayout>
